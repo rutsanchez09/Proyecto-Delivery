@@ -6,9 +6,6 @@ import modelos.Pedido;
  * Cola de prioridad implementada con un max-heap manual sobre un arreglo.
  * El pedido con mayor prioridad (numero mas alto) siempre sale primero,
  * sin importar el orden en que llegaron.
- *
- * Estructura interna: arreglo donde el padre de la posicion i esta en (i-1)/2,
- * y los hijos estan en 2i+1 y 2i+2.
  */
 public class ColaPrioridadPedidos {
 
@@ -77,7 +74,6 @@ public class ColaPrioridadPedidos {
     /**
      * Baja el nodo en la posicion i intercambiandolo con el hijo de mayor
      * prioridad hasta que quede en su lugar correcto.
-     * Se usa despues de sacar la raiz.
      */
     private void bajarHeap(int i) {
         int mayor = i;

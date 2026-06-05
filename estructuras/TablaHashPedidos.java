@@ -5,7 +5,6 @@ import modelos.Pedido;
 /**
  * Tabla hash con encadenamiento (chaining) para buscar pedidos por ID en O(1) promedio.
  * Cada posicion del arreglo es el inicio de una lista enlazada de nodos.
- * Cuando dos IDs caen en el mismo bucket, se encadenan en esa lista.
  */
 public class TablaHashPedidos {
 
