@@ -3,7 +3,7 @@ package estructuras;
 /**
  * Pila de strings para registrar cambios de estado de los pedidos (auditoria).
  * Implementada con nodos enlazados. Guarda maximo 10 eventos recientes.
- * El ultimo evento registrado es el primero en mostrarse (LIFO).
+ * El ultimo evento registrado es el primero en mostrarse.
  */
 public class PilaHistorial {
 
