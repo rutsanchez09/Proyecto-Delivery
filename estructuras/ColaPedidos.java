@@ -54,8 +54,8 @@ public class ColaPedidos {
     }
 
     /**
-     * Saca y devuelve el pedido que lleva mas tiempo esperando.
-     * Devuelve null si la cola esta vacia.
+     * Saca y devuelve el pedido que lleva mas tiempo en espera.
+     * Devuelve un null si la cola esta vacia.
      */
     public Pedido desencolar() {
         if (estaVacia()) return null;
