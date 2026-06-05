@@ -5,7 +5,7 @@ import modelos.Repartidor;
 /**
  * Lista doblemente enlazada de repartidores.
  * Permite agregar repartidores, recorrer la flota y encontrar
- * el primero disponible sin necesidad de reasignar arreglos.
+ * el primero disponible sin necesidad de volver a asignar arreglos.
  */
 public class ListaRepartidores {
 
